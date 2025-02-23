@@ -1,0 +1,146 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa; /* Light Background */
+    margin: 0;
+    padding: 0;
+    color: #343a40; /* Dark Gray Text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    border: 5px solid #dee2e6; /* Light Gray Border */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    font-size: 48px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: #20c997; /* Teal */
+    border-bottom: 3px solid #20c997;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.balance {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(32, 201, 151, 0.1);
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 400px;
+    border: 2px solid #20c997;
+}
+
+.balance img {
+    width: 28px;
+    height: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(32, 201, 151, 0.1);
+    border: 2px solid #20c997;
+    box-shadow: 0 0 15px rgba(32, 201, 151, 0.2);
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+form input, form select, form button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #20c997;
+    width: 100%;
+    background: #f8f9fa;
+    color: #343a40;
+    font-size: 16px;
+}
+
+form button {
+    background: #20c997;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border: none;
+}
+
+form button:hover {
+    background: rgba(32, 201, 151, 0.8);
+}
+
+.expense-table {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(32, 201, 151, 0.1);
+    border: 2px solid #20c997;
+    box-shadow: 0 0 15px rgba(32, 201, 151, 0.2);
+}
+
+.expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #343a40;
+}
+
+.expense-table th, .expense-table td {
+    padding: 12px;
+    border: 1px solid #20c997;
+    text-align: left;
+}
+
+.expense-table th {
+    background: #20c997;
+    color: white;
+    font-weight: bold;
+}
+
+#generate-excel {
+    background: #20c997;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    transition: 0.3s ease;
+}
+
+#generate-excel:hover {
+    background: rgba(32, 201, 151, 0.8);
+}
