@@ -36,6 +36,8 @@
         window.location.href = "dash.html";
     });
 });
+// Removed invalid <script> tag and its content
+
 
 
 

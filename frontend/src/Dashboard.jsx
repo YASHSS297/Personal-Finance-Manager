@@ -76,7 +76,7 @@ const Dashboard = () => {
                   <button type="submit">+ Add Expense</button>
               </form>
   
-              <div className="expense-table">
+              <div className="table-container">
                   <table>
                       <thead>
                           <tr>
@@ -104,7 +104,10 @@ const Dashboard = () => {
               <button  id="generate-excel"  onClick={handleGenerateExcel}>Generate Excel</button>
           </div>
       );
+      
   };
+
+  
   
 
   
